@@ -1,0 +1,116 @@
+/* Define application-wide selectors here!*/
+
+html {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
+}
+
+button {
+	// background-color:
+	// border-color:
+	// color:
+	// font-weight:
+	// padding:
+	// border-radius:
+	// transition:
+	// font-family: 
+	// text-transform:
+	// font-size:
+	// text-align:
+	margin: 5px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#sections-btn button {
+	border-color: white;
+	padding: 5px;
+}
+
+#sections-btn button:hover {
+	background-color: #e2e2e2;
+}
+
+#search-btn button:hover {
+	background-color: #e2e2e2;
+}
+
+#gear-dropdown-btn button:hover {
+	background-color: #e2e2e2;
+	
+}
+
+#search-btn button {
+	background-color: #f7f7f5;
+	border-color: white;
+	
+}
+
+#sub-btn button {
+	background-color: #326891;
+	color:#f7f7f5;
+	border-color:#4d7b9f;
+}
+
+#log_in-btn button {
+	background-color: #6288a5;
+	color:#f7f7f5;
+	font-weight: bold;
+	border-color:#4d7b9f;
+}
+
+.hidden{
+display: none;
+position: absolute;
+left: 50px;
+}
+
+#gear-dropdown-btn button {
+	background-color: #f7f7f5;
+	border-color: white;
+	
+}
+
+#log_in-btn button:hover {
+	background-color:#265e8b;
+	border-color:#265e8b;
+}
+
+#sub-btn button:hover {
+	background-color:#265e8b;
+	border-color:#265e8b;
+}
+
+#search-modal-btn i:hover{
+	background-color:#e2e2e2;
+}
+/*
+	Header Rules
+*/
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: $light-gray;
+}
+
+.hr-top, .hr-bottom {
+	width: 100%;
+	margin: 0;
+}
+
+.hr-top {
+	height: 2px;
+	margin-bottom: 1px;
+}
+
+.right-nav i {
+	position: relative;
+}

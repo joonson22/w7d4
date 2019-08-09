@@ -1,0 +1,41 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom-style: groove;
+  border-bottom-color: black;
+  border-width: 1px;
+  
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  vertical-align: middle;
+}
+
+.left-nav > ul > li {
+
+}
+
+.right-nav > ul > li {
+
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}

@@ -1,0 +1,21 @@
+.sections-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 2px solid #e2e2e2;
+	position: relative;
+}
+
+.sections-nav button {
+  border-color: white;
+  margin: 2px;
+}
+.sections-nav button:hover {
+  background-color: #f7f7f5;
+}
+
+.sections-nav a {
+  color: black;
+  text-decoration-color: black;
+}
+
